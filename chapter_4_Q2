@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    
+    char t[11];
+    printf("Enter a ten-digit number: ");
+    scanf("%10s", t);
+    printf("\n");
+    
+    printf("The reversal is: ");
+    for (int i = 9; i >= 0; i--) {
+        printf("%c", t[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
