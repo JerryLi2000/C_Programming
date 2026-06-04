@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    
+    int i, u;
+    char t[10];
+    printf("Enter item number: ");
+    scanf("%d", &i);
+    printf("\n");
+    printf("Enter unit price: ");
+    scanf("%d", &u);
+    printf("\n");
+    printf("Enter purchase date (mm/dd/yyyy):  ");
+    scanf("%s", &t);
+    printf("\n");
+    
+    printf("Item            Unit            Purchase\n");
+    printf("                Price           Date\n");
+    printf("%-16d%-16d%s", i, u, t);
+
+    return 0;
+}
